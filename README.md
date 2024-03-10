@@ -1,19 +1,20 @@
-Loja Virtual
-Este repositório contém o código-fonte de uma loja virtual desenvolvida do zero, utilizando as seguintes tecnologias:
 
-Spring Framework v2.5.6: Utilizado para a construção do backend da aplicação.
-Spring Security: Implementação de autenticação e autorização.
-Spring JPA: Integração com o banco de dados PostgreSQL.
-Maven: Gerenciador de dependências utilizado no projeto.
-Java 11: Linguagem de programação utilizada no backend.
-Angular 16: Framework JavaScript utilizado para desenvolvimento do frontend.
-APIs disponíveis: Usuários, Fornecedores, Clientes, Funcionários, Produtos.
-Integrações: Integração com APIs de Geração de Nota Fiscal, Cálculo de Frete, e Pagamentos (Pix, Boleto, Cartão).
-Hospedagem: Será hospedada na AWS (Amazon Web Services).
-Objetivo
-O objetivo deste projeto é criar uma loja virtual completa, desde a parte de backend até a interface frontend, integrando diversas tecnologias para oferecer uma experiência completa aos usuários.
+Virtual Store
+This repository contains the source code of a virtual store developed from scratch, using the following technologies:
 
-Tecnologias Utilizadas
+Spring Framework v2.5.6: Used for building the backend of the application.
+Spring Security: Implementation of authentication and authorization.
+Spring JPA: Integration with the PostgreSQL database.
+Maven: Dependency management tool used in the project.
+Java 11: Programming language used in the backend.
+Angular 16: JavaScript framework used for frontend development.
+Available APIs: Users, Suppliers, Customers, Employees, Products.
+Integrations: Integration with APIs for generating Invoices, Calculating Shipping, and Payments (Pix, Boleto, Card).
+Hosting: Will be hosted on AWS (Amazon Web Services).
+Objective
+The objective of this project is to create a complete virtual store, from the backend to the frontend interface, integrating various technologies to offer a complete experience to users.
+
+Technologies Used
 Spring Framework v2.5.6
 Spring Security
 Spring JPA
@@ -22,14 +23,14 @@ PostgreSQL
 Java 11
 Angular 16
 AWS
-Funcionalidades
-Cadastro e gerenciamento de usuários
-Cadastro e gerenciamento de fornecedores
-Cadastro e gerenciamento de clientes
-Cadastro e gerenciamento de funcionários
-Cadastro e gerenciamento de produtos
-Integração com API de Geração de Nota Fiscal
-Integração com API de Cálculo de Frete
-Integração com APIs de Pagamentos (Pix, Boleto, Cartão)
-Hospedagem
-A aplicação será hospedada na AWS (Amazon Web Services).
+Features
+User registration and management
+Supplier registration and management
+Customer registration and management
+Employee registration and management
+Product registration and management
+Integration with Invoicing API
+Integration with Shipping Calculation API
+Integration with Payments APIs (Pix, Boleto, Card)
+Hosting
+The application will be hosted on AWS (Amazon Web Services).
