@@ -50,6 +50,7 @@ public class Usuario implements UserDetails {
 	foreignKey = @ForeignKey(name = "acesso_fk", value = ConstraintMode.CONSTRAINT)))
 	private List<Acesso> acessos;
 	
+	
 	/* Autoridades = São os acesso, ROLE_ADMIN, ROLE_SECRETARIO, ROLE_FINANCEIRO */
 	@Override
 	public Collection<? extends GrantedAuthority> getAuthorities() {
