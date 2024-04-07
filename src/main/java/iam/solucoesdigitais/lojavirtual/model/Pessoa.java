@@ -3,6 +3,7 @@ package iam.solucoesdigitais.lojavirtual.model;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
+//import java.util.Objects;
 import java.util.Objects;
 
 import javax.persistence.CascadeType;
@@ -92,5 +93,7 @@ public abstract class Pessoa implements Serializable {
 		Pessoa other = (Pessoa) obj;
 		return Objects.equals(id, other.id);
 	}
+
+	
 
 }
